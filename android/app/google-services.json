@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "286730004317",
+    "project_id": "pushnoti-bcb84",
+    "storage_bucket": "pushnoti-bcb84.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286730004317:android:45216cc780fe9bc81eaab4",
+        "android_client_info": {
+          "package_name": "com.example.pushnoti"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_6f8JCceLEIyULAwX3hyUKLFI6JHhiGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
