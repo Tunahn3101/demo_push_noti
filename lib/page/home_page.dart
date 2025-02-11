@@ -56,15 +56,16 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: SafeArea(
+        body: Center(
       child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
           GestureDetector(
-            child: Text("Thanh Toan"),
+            child: const Text("Thanh Toan"),
             onTap: () async {
-              await Future.delayed(Duration(milliseconds: 2000));
+              await Future.delayed(const Duration(milliseconds: 200));
               LocalNotificationService.display(
-                RemoteMessage(
+                const RemoteMessage(
                   notification: RemoteNotification(
                     title: "Oops!!!",
                     body: "Co tien dau ma thanh toan???",
